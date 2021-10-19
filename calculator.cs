@@ -14,7 +14,7 @@ namespace CalculatorApp
             Console.WriteLine("Press 2 for Subtraction");
             Console.WriteLine("Press 3 for Multiplication");
             Console.WriteLine("Press 4 for Division \n");
-            double action = Convert.ToDouble(Console.ReadLine());
+            int action = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter 1st input");
             double input_1 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Enter 2nd input");
